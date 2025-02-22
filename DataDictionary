@@ -3,3 +3,8 @@ Data Dictionary
 Drugs Dataset:
 
 Heart Disease and Hospitals Dataset: 
+
+
+
+The columns being features of the data, and it may also contain descriptions of 
+how the data is structured. Yes, sometimes it also contains information on why it was collected.
