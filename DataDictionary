@@ -1,9 +1,10 @@
 Data Dictionary
 
 Drugs Dataset:
+remove the cols: if their is a year then remove month, remove all rates
 
 Heart Disease and Hospitals Dataset: 
-
+remove the cols: remove first and last names 
 
 
 The columns being features of the data, and it may also contain descriptions of 
