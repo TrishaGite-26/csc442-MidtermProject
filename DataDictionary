@@ -1,11 +1,65 @@
-Data Dictionary
+# Drugs Dataset
 
-Drugs Dataset:
-remove the cols: if their is a year then remove month, remove all rates
+## Description
+This dataset provides statistics on substance use across different states in the U.S. for various age groups.
 
-Heart Disease and Hospitals Dataset: 
-remove the cols: remove first and last names 
+## Columns
+
+| Column Name | Data Type | Description |
+|-------------|----------|-------------|
+| `State` | `string` | Name of the U.S. state. |
+| `Year` | `integer` | Year of data collection. |
+| `Population.12-17` | `integer` | Population count of individuals aged 12-17 in the state. |
+| `Population.18-25` | `integer` | Population count of individuals aged 18-25 in the state. |
+| `Population.26+` | `integer` | Population count of individuals aged 26 and older in the state. |
+| `Totals.Alcohol.Use Disorder Past Year.12-17` | `integer` | Number of individuals aged 12-17 with alcohol use disorder in the past year. |
+| `Totals.Alcohol.Use Disorder Past Year.18-25` | `integer` | Number of individuals aged 18-25 with alcohol use disorder in the past year. |
+| `Totals.Alcohol.Use Disorder Past Year.26+` | `integer` | Number of individuals aged 26 and older with alcohol use disorder in the past year. |
+| `Totals.Illicit Drugs.Cocaine Used Past Year.12-17` | `integer` | Number of individuals aged 12-17 who used cocaine in the past year. |
+| `Totals.Illicit Drugs.Cocaine Used Past Year.18-25` | `integer` | Number of individuals aged 18-25 who used cocaine in the past year. |
+| `Totals.Illicit Drugs.Cocaine Used Past Year.26+` | `integer` | Number of individuals aged 26 and older who used cocaine in the past year. |
+| `Totals.Marijuana.New Users.12-17` | `integer` | Number of new marijuana users aged 12-17 in the past year. |
+| `Totals.Marijuana.New Users.18-25` | `integer` | Number of new marijuana users aged 18-25 in the past year. |
+| `Totals.Marijuana.New Users.26+` | `integer` | Number of new marijuana users aged 26 and older in the past year. |
+| `Totals.Marijuana.Used Past Year.12-17` | `integer` | Number of individuals aged 12-17 who used marijuana in the past year. |
+| `Totals.Marijuana.Used Past Year.18-25` | `integer` | Number of individuals aged 18-25 who used marijuana in the past year. |
+| `Totals.Marijuana.Used Past Year.26+` | `integer` | Number of individuals aged 26 and older who used marijuana in the past year. |
+
+## Removed Columns
+- All `Rates` columns (as they represent per 1,000 population statistics).
+- Any `Month` column (since `Year` is retained).
+
+## Purpose
+This dataset helps monitor trends in substance use and support policymaking for public health interventions.
 
 
-The columns being features of the data, and it may also contain descriptions of 
-how the data is structured. Yes, sometimes it also contains information on why it was collected.
+
+# Heart Disease and Hospitals Dataset
+
+## Description
+This dataset contains patient records related to heart disease, including demographic details, biometric data, and hospital treatment information.
+
+## Columns
+
+| Column Name | Data Type | Description |
+|-------------|----------|-------------|
+| `full_name` | `string` | Full name of the patient. |
+| `age` | `integer` | Age of the patient. |
+| `country` | `string` | Country of residence (likely all USA). |
+| `state` | `string` | U.S. state of residence. |
+| `blood_pressure` | `float` | Blood pressure measurement of the patient. |
+| `cholesterol` | `float` | Cholesterol level of the patient. |
+| `bmi` | `float` | Body Mass Index (BMI) of the patient. |
+| `glucose_level` | `float` | Blood glucose level of the patient. |
+| `gender` | `string` | Gender of the patient. |
+| `hospital` | `string` | Hospital where the patient received treatment. |
+| `treatment` | `string` | Type of treatment received (e.g., Counseling, Medication, Rehabilitation). |
+| `treatment_date` | `string` | Date of treatment in timestamp format. |
+| `heart_disease` | `integer` | Indicator of heart disease presence (1 = Yes, 0 = No). |
+
+## Removed Columns
+- `first_name`
+- `last_name`
+
+## Purpose
+This dataset is used for medical research, healthcare analytics, and hospital resource planning.
