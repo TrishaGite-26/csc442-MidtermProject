@@ -87,7 +87,7 @@
 
 ---
 
-## Seventh Team Meeting Agenda - 3/26
+## Eight Team Meeting Agenda - 3/30
 - **Members who attended:** Trisha Gite, Merilyn Thomas, Rhea Pimenta, Sanjana Kasturi
 - **Focus:** Finalize Homework 6
 
