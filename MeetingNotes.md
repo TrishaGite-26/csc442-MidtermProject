@@ -77,7 +77,7 @@
 
 ---
 
-## Seventh Team Meeting Agenda - 3/26 (First Session)
+## Seventh Team Meeting Agenda - 3/26
 - **Members who attended:** Trisha Gite, Merilyn Thomas, Rhea Pimenta, Sanjana Kasturi
 - **Focus:** Continue Homework 6
 
@@ -87,7 +87,7 @@
 
 ---
 
-## Seventh Team Meeting Agenda - 3/26 (Second Session)
+## Seventh Team Meeting Agenda - 3/26
 - **Members who attended:** Trisha Gite, Merilyn Thomas, Rhea Pimenta, Sanjana Kasturi
 - **Focus:** Finalize Homework 6
 
