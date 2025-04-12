@@ -95,3 +95,23 @@
 - Completed the Analysis Sketch.
 - Reviewed everyone's work.
 - Finalized last details of Homework 6.
+
+---
+
+## Ninth Team Meeting Agenda - 4/9
+- **Members who attended:** Trisha Gite, Merilyn Thomas, Rhea Pimenta, Sanjana Kasturi
+- **Focus:** Completing Group Work for Homework 7
+### Key Discussion Points:
+- Team meeting to complete part of the team code.
+- Discuss subgoals and divide tasks
+- Plan to meet with Dr. Mallavarapu to confirm subgoal in next class
+
+---
+
+## Tenth Team Meeting Agenda - 4/12
+- **Members who attended:** Trisha Gite, Merilyn Thomas, Rhea Pimenta, Sanjana Kasturi
+- **Focus:** Completing Homework 7
+### Key Discussion Points:
+- Dividing slides for final project presentation.
+- Present individual work and make sure everyone's work is satisfactory.
+- Finalize team code and model for business question.
